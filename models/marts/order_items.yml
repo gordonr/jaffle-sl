@@ -138,6 +138,6 @@ saved_queries:
       group_by:
         - TimeDimension('metric_time', 'week')
     exports:
-      - name: weekly_revenue
+      - name: weekly_revenue_export
         config:
           export_as: table
