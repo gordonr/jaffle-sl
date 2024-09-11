@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  
+  - name: semantic_layer_dashboard
+    type: dashboard
+    maturity: high
+    url: http://ec2-18-116-107-20.us-east-2.compute.amazonaws.com/views/JaffleShopSemanticLayer/Dashboard1
+    description: >
+      Did someone say "great growth"?
+    
+    depends_on:
+      - ref('customers')
+      - ref('orders')
+      
+    owner:
+      name: Flash Gordon
+      email: data@jaffleshop.com
