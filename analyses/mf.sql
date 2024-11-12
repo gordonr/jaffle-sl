@@ -1,0 +1,1 @@
+dbt sl query --metrics revenue --group-by metric_time
